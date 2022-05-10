@@ -1,9 +1,6 @@
 import pandas as pd
 import numpy as np
 
-protein_file = 'Ecoli_MS_NormTotal_Fusion_160519_70_77_Proteins.txt.gz?raw=true'
-RNA_file = 'GSE92601_Escherichia_coli.Gene.rpkm.txt.gz'
-
 
 def get_gene_name(descr):
     try:
